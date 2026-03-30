@@ -33,6 +33,9 @@ h1{
   text-align: center;
   background: #AF8F6F;
 }
+.HEAD a {
+  text-decoration: none;
+}
 nav {
   box-sizing: border-box;
   display: flex;
@@ -64,5 +67,41 @@ nav a {
   margin-bottom: 30%;
 }
 .tentang p {
-  padding: 10px;
+  padding: 5px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 20px;
+}
+.karya {
+  padding: 5px;
+padding-right:20px;
+padding-bottom: 5px;
+}
+.karya ul {
+  padding-left: 30px;
+}
+.karya p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.medsos ul {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.7rem;
+}
+.medsos li {
+  font-weight: 400;
+}
+.medsos a {
+  font-weight: 400;
+}
+footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color:#E1E1E6;
+  background: #AF8F6F;
+  height: 70px;
+  border-radius: 15px;
 }
