@@ -1,20 +1,16 @@
-/* RESET & GLOBAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 body {
   background: #F8F4E1;
 }
-
-/* TYPOGRAPHY */
 p {
   font-family: Times New Roman;
   font-size: 0.6rem;
-  font-weight: 100;
+  font-weight: 400;
   color: white;
 }
 h3 {
@@ -28,7 +24,6 @@ a {
 h1{
   color: white;
 }
-/*element*/
 .HEAD {
   box-sizing: border-box;
   display: block;
@@ -68,7 +63,6 @@ nav a {
   margin-right: 30px;
   margin-bottom: 30%;
 }
-/* SECTION: .tentang */
 .tentang p {
   padding: 10px;
 }
